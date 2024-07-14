@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../componets/Navbar';
 import CategoryMenu from '../componets/CategoryMenu';
 import FoodItems from '../componets/FoodItems';
+import Cart from '../componets/Cart';
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
       <Navbar/>
       <CategoryMenu/>
       <FoodItems/>
+      <Cart/>
     </div>
   )
 }
